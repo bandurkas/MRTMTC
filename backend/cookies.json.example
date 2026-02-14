@@ -1,0 +1,22 @@
+[
+  {
+    "name": "SPC_EC",
+    "value": "your_cookie_value_here",
+    "domain": ".shopee.co.id",
+    "path": "/",
+    "expires": 1761623548.865369,
+    "size": 86,
+    "httpOnly": true,
+    "secure": true,
+    "session": false,
+    "sameSite": "Lax"
+  },
+  {
+      "name": "SPC_F",
+      "value": "your_fingerprint_cookie",
+      "domain": ".shopee.co.id",
+      "path": "/",
+      "httpOnly": false,
+      "secure": true
+  }
+]

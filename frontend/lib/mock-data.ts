@@ -1,0 +1,70 @@
+import { Product } from "@/components/product-card";
+
+export const MOCK_PRODUCTS: Product[] = [
+    {
+        id: "1",
+        title: "Sony WH-1000XM5 Wireless Noise Cancelling Headphones",
+        price: 4999000,
+        originalPrice: 5999000,
+        discount: 17,
+        rating: 4.8,
+        reviewsCount: 1240,
+        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=1000",
+        seller: {
+            name: "Sony Official Store",
+            rating: 4.9,
+            isOfficial: true,
+            location: "Jakarta Pusat",
+        },
+        shipping: {
+            speed: "Instant",
+            isFree: true,
+        },
+        tags: ["Best Price", "Trusted Seller"],
+        url: "https://shopee.co.id/sony-official",
+    },
+    {
+        id: "2",
+        title: "Logitech G Pro X Superlight Wireless Gaming Mouse",
+        price: 1899000,
+        originalPrice: 2399000,
+        discount: 21,
+        rating: 4.9,
+        reviewsCount: 850,
+        image: "https://images.unsplash.com/photo-1615663245857-acda5b2a6d5d?auto=format&fit=crop&q=80&w=1000",
+        seller: {
+            name: "Logitech Official",
+            rating: 4.9,
+            isOfficial: true,
+            location: "Jakarta Utara",
+        },
+        shipping: {
+            speed: "Same Day",
+            isFree: true,
+        },
+        tags: ["Best Value"],
+        url: "https://tokopedia.com/logitech",
+    },
+    {
+        id: "3",
+        title: "Keychron K2 Pro Mechanical Keyboard",
+        price: 1750000,
+        originalPrice: 1900000,
+        discount: 8,
+        rating: 4.7,
+        reviewsCount: 320,
+        image: "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&q=80&w=1000",
+        seller: {
+            name: "Keychron Indonesia",
+            rating: 4.8,
+            isOfficial: true,
+            location: "Tangerang",
+        },
+        shipping: {
+            speed: "Standard",
+            isFree: false,
+        },
+        tags: ["Trusted Seller"],
+        url: "https://shopee.co.id/keychron",
+    },
+];
